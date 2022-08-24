@@ -1,19 +1,16 @@
-Feature:json write
+Feature: To create a json file
 
 
-Scenario Outline:
+Scenario Outline: Multiple file creation
     * def jsonObject = <data>
     * string filename = <filename>
-    # * def new = function(){ return karate.write(data,"main.json")}
-    # * def FileUtils = Java.type('com.intuit.karate.FileUtils')
-    # * def result = FileUtils.writeToFile('temp.txt','hello world')
-    * def file =
+    * def store_file =
     """
         function(){
            karate.write(jsonObject,filename)
         }
     """
-    * def results = call file
+    * def results = call store_file
 
 Examples:
 |data   |filename|
