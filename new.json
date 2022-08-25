@@ -1,10 +1,12 @@
 [
     {
         "name":"santhosh",
-        "locations":"dindigul"
+        "locations":"dindigul",
+        "gender":"Male"
     },
     {
         "name":"kumar",
-        "locations":"dindigul"
+        "locations":"dindigul",
+        "gender":"Male"
     }
 ]

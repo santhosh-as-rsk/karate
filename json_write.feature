@@ -1,6 +1,5 @@
 Feature: To create a json file
 
-
 Scenario Outline: Multiple file creation
     * def jsonObject = <data>
     * string filename = <filename>
